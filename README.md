@@ -1,2 +1,2 @@
-# Weapons
-These JSON files hold the values for the weapons in our game. If you want to add a weapon, copy WeaponTeamplate.json and fill in the values.
+# How to Create a Weapon using these Templates
+These JSON files hold the values for the weapons in our game. If you want to add a weapon, copy WeaponTemplate.json and fill in the values. Also copy the WeaponTemplate.cs so you can set up the special abilities of your weapon. Group both of these in a folder named "Whatever weapon you are making". I am working on providing the documentation for this c# mini-library.

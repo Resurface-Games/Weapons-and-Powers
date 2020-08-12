@@ -1,0 +1,10 @@
+{
+    "PowerName": {
+        "name": "Insert Power name",
+        "Description": "Insert description",
+        "flavor": "Insert Flavor text",
+
+        "isAbility": false,
+        "abilityCooldown": 0
+    }
+}
