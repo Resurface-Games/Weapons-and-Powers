@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Script", menuName = "Power or Weapon Script")]
+[CreateAssetMenu(fileName = "New Script", menuName = "Power or Weapon Script")] //Delete this when making a new power/weapon
 public class PowerAndWeaponTemplate : MonoBehavior
 {
     void ItemEncountered()
