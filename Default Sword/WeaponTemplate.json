@@ -1,0 +1,15 @@
+{
+    "Default Sword": {
+        "name": "Defualt Sword",
+        "specialAbilities": "none",
+        "flavor": "It's not pretty, but it will get the job done.",
+
+        "isRaycast": false,
+        "projectile": "none",
+        
+        "health": 7,
+        "damage": 5,
+        "moveSpeed": 7,
+        "attackSpeed": 4
+    }
+}
