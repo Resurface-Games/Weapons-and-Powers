@@ -1,2 +1,4 @@
 # How to Create a Weapon using these Templates
 These JSON files hold the values for the weapons in our game. If you want to add a weapon, copy WeaponTemplate.json and fill in the values. Also copy the WeaponTemplate.cs so you can set up the special abilities of your weapon. Group both of these in a folder named "Whatever weapon you are making". Then make the commit to a new branch (named the same as your weapon) and start a pull request. Your work will be checked and then merged into the master branch. I am working on providing the documentation for this c# mini-library.
+
+NOTE: As of now there aren't any functions for doing things like "Drop a bomb" or "Gain x life". These will be coming soon. If you're power needs to do something that we haven't made into a function, you can call that function even thought it doesn't exist, and bring up an issue here in github, telling us what you want the function to do.
