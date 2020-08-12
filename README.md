@@ -1,4 +1,4 @@
--# How to Create a Weapon using these Templates
+# How to Create a Weapon using these Templates
 These scripts are templates for the weapons/powers in our game. If you want to add a weapon/power, copy the corresponding Template.cs (name it the same as your weapon name) and fill in the values of the variables. You can also fill in the functions with what you want to have happen. Once you are finished, make the commit to a new branch (named the same as your weapon) and start a pull request. Your work will be checked and then merged into the master branch so it can be imported into Unity. All the extra functions we have created for you to use when making these items are in the Library folder.
 
 NOTE: If you need a function like "Drop a bomb" or "Gain x life" and don't see anything for it in the Library folder, you can call that function even though it doesn't exist, and bring up an issue here in github, telling us what you want the function to do. We will do our best to add it to the Library folder.
