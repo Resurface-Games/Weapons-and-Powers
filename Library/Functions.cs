@@ -25,4 +25,9 @@ public class Functions : MonoBehaviour
             enemies[v].health -= damage;
         }
     }
+
+    public void DamageSelf(int damage)
+    {
+        healthScript.health -= damage;
+    }
 }
