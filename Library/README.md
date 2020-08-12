@@ -1,0 +1,2 @@
+# Library
+If you have been making powers using the templates, and are curious about what exactly you can do with them, check here! This folder has all the scripts used to call functions- and make them- so you can make your powers/weapons!
