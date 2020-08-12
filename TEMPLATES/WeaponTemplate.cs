@@ -17,29 +17,11 @@ public class Weapon : ScriptableObject
     public int attackSpeed; //This determines the base amount of time between attacks when using this weapon
 
 
-    public void ItemEncountered()
-    {
-        //ItemEncountered will be called if this is a power, and it is an ability.
-        //It assigns a key to the ability.
-        //You probably don't need to add anything to this function, 
-        //but keep it here.
-        public int abilityKey = Random.Range(0, 3);
-    }
-
     public void OnRoll()
     {
         //OnRoll() will be called whenever the player rolls. 
         //You don't have to worry about actually making the player roll.
         //This is just for adding stuff like drop a bomb, or make fire.
-    }
-
-    public bool Ability(int button)
-    {
-        if (button == abilityKey)
-        {
-            //This will happen when the player activates the ability
-            return true; //This is needed so that the cooldown manager knows if something happened.
-        }
     }
 
     public void OnShoot()
