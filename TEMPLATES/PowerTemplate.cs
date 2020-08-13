@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Power", menuName = "New Power")]
-public class Power : ScriptableObject
+public class PowerTemplate : MonoBehaviour
 {
     public Functions function; //If you want to call any functions from Functions.cs, type function.NameOfFunction().
     public new string name; //The name of the power

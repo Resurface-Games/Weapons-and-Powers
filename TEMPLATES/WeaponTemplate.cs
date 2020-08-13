@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Weapon", menuName = "New Weapon")] //Delete this when making a new weapon
-public class Weapon : ScriptableObject
+public class Weapon : MonoBehaviour
 {
     public Functions function; //If you want to call any functions from Functions.cs, type function.NameOfFunction().
     public new string name; //The name of the weapon
