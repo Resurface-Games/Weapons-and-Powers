@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Functions : MonoBehaviour
 {
-    public PlayerHealthScript healthScript;
+    public basicCombatBehavior healthScript;
     public EnemyScript[] enemies;
 
     
