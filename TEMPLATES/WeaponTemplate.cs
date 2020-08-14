@@ -10,6 +10,11 @@ public class Weapon : MonoBehaviour
     public string flavor; //The flavor text for this weapon (optional)
     public Sprite artwork; //The image for this weapon
 
+    //You don't need to add anything here, it is for when we import this into unity.
+    public Animator animator; //The animations for this weapon.
+    public AudioSource ShootSound; //The shooting sound for this weapon.
+    public AudioSource ReloadSound; //The reload sound for this weapon.
+
     public int health; //The player's base health when using this weapon
     public int damage; //The player's base attack damage when using this weapon
     public int moveSpeed; //The player's base movement speed when using this weapon
