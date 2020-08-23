@@ -5,12 +5,6 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     [SerializeField]
-    Power[] powers;
-
-    [SerializeField]
-    Weapon[] weapons;
-    
-    [SerializeField]
     CIAN_RigidbodyMovement2D movementScript;
 
     [SerializeField]
